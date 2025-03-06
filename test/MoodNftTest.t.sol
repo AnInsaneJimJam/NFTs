@@ -26,7 +26,7 @@ contract MoodNftTest is Test{
         moodNft.mintNft();
         console.log(moodNft.tokenURI(0));
     }
-
+}
 // He used  manual checking on this one
 //     function testFlipTokenToSad() public{
 //         vm.prank(USER);
